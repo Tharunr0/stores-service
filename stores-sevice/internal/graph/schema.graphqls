@@ -1,0 +1,9 @@
+type Store {
+  id: ID!
+  name: String!
+  revenue: Float!
+}
+
+type Query {
+  stores: [Store!]!
+}
